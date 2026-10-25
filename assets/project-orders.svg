@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="690" height="226" viewBox="0 0 690 226" role="img" aria-label="OrderReservationService project">
- <defs><linearGradient id="shade" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#122941"/><stop offset="1" stop-color="#081625"/></linearGradient></defs>
- <rect x="1" y="1" width="688" height="224" rx="16" fill="#0d1828" stroke="#32455b" stroke-width="2"/>
- <rect x="12" y="12" width="262" height="200" rx="11" fill="url(#shade)"/>
- <path d="M12 160 Q140 98 274 172V211H12Z" fill="#081524" opacity=".5"/>
- <g transform="translate(37,33)" stroke="#84b9ee" stroke-width="2"><path d="M5 33L69 8l65 25-65 27Z" fill="#1a4267"/><path d="M5 33v74l64 33V60Z" fill="#103352"/><path d="M134 33v74l-65 33V60Z" fill="#245980"/><path d="M69 60V140M33 21l69 26" stroke="#5280a5"/><path d="M123 92L185 68l57 25-62 25Z" fill="#235879"/><path d="M123 92v56l57 31v-61Z" fill="#173d5d"/><path d="M242 93v55l-62 31v-61Z" fill="#2a6285"/><path d="M153 81l60 25" stroke="#5c87ac"/></g>
- <text x="292" y="68" font-size="27" font-weight="700" font-family="Arial,sans-serif" fill="#67b9ff">OrderReservationService</text>
- <text x="292" y="103" font-size="17" fill="#d6e1ef" font-family="Arial,sans-serif">Inventory-aware reservations</text>
- <text x="292" y="131" font-size="17" fill="#d6e1ef" font-family="Arial,sans-serif">with transactional stock control.</text>
- <rect x="292" y="156" width="60.0" height="30" rx="9" fill="#1c3550" stroke="#335475"/><text x="305" y="176" font-size="14" fill="#a6d4ff" font-family="Arial,sans-serif">Java</text><rect x="360.0" y="156" width="119.5" height="30" rx="9" fill="#1c3550" stroke="#335475"/><text x="373.0" y="176" font-size="14" fill="#a6d4ff" font-family="Arial,sans-serif">Spring Boot</text><rect x="487.5" y="156" width="111.0" height="30" rx="9" fill="#1c3550" stroke="#335475"/><text x="500.5" y="176" font-size="14" fill="#a6d4ff" font-family="Arial,sans-serif">PostgreSQL</text>
- <path d="M648 196h18 m-7-7 7 7-7 7" stroke="#69b8ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
- </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="202" viewBox="0 0 900 202" role="img" aria-label="OrderReservationService: Order reservation service with inventory consistency.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111e30"/><stop offset="1" stop-color="#0b1422"/></linearGradient><linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ecad80" stop-opacity=".17"/><stop offset="1" stop-color="#ecad80" stop-opacity="0"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="200" rx="15" fill="url(#bg)" stroke="#2b3d52" stroke-width="2"/>
+<rect x="2" y="2" width="7" height="198" rx="4" fill="#ecad80"/>
+<rect x="10" y="3" width="580" height="195" fill="url(#glow)" opacity=".3"/>
+<text x="40" y="29" fill="#ecad80" font-size="15" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="2.1" font-weight="700">JAVA  /  TRANSACTIONS</text>
+<text x="40" y="75" fill="#eff5fe" font-size="35" font-family="DejaVu Sans,Arial,sans-serif" font-weight="700">OrderReservationService</text>
+<text x="40" y="108" fill="#d5e1ee" font-size="20" font-family="DejaVu Sans,Arial,sans-serif">Order reservation service with inventory consistency.</text>
+<text x="40" y="136" fill="#9fb4ca" font-size="18" font-family="DejaVu Sans,Arial,sans-serif">Spring Boot, database transactions and pessimistic locking.</text>
+<rect x="40" y="157" width="71.2" height="30" rx="8" fill="#19293d" stroke="#304158" stroke-width="1"/><text x="75.6" y="177" fill="#c3d6ee" font-size="17" font-weight="600" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">Java</text><rect x="123.2" y="157" width="146.8" height="30" rx="8" fill="#19293d" stroke="#304158" stroke-width="1"/><text x="196.60000000000002" y="177" fill="#c3d6ee" font-size="17" font-weight="600" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">Spring Boot</text><rect x="282.0" y="157" width="136.0" height="30" rx="8" fill="#19293d" stroke="#304158" stroke-width="1"/><text x="350.0" y="177" fill="#c3d6ee" font-size="17" font-weight="600" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">PostgreSQL</text><rect x="430.0" y="157" width="82.0" height="30" rx="8" fill="#19293d" stroke="#304158" stroke-width="1"/><text x="471.0" y="177" fill="#c3d6ee" font-size="17" font-weight="600" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">JUnit</text>
+<text x="853" y="68" fill="#ecad80" font-family="DejaVu Sans,Arial,sans-serif" font-size="42" font-weight="700" opacity=".18" text-anchor="end">04</text>
+<path d="M818 164 h28 m-9 -9 l9 9 -9 9" fill="none" stroke="#ecad80" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

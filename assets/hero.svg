@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="415" viewBox="0 0 1400 415" role="img" aria-label="Aidar Nazarov. Backend Software Engineer. Go, Java, Distributed Systems.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="415" viewBox="0 0 1400 415" role="img" aria-label="Aidar Nazarov. Backend Developer. Go, Java, Distributed Systems.">
 <defs>
 <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#090f1c"/><stop offset=".38" stop-color="#18223a"/><stop offset=".70" stop-color="#594155"/><stop offset="1" stop-color="#c46b62"/></linearGradient>
 <linearGradient id="fade" x1="0" x2="1"><stop stop-color="#07101d" stop-opacity=".98"/><stop offset=".43" stop-color="#08111e" stop-opacity=".84"/><stop offset=".69" stop-color="#08111e" stop-opacity=".1"/><stop offset="1" stop-color="#06101e" stop-opacity=".12"/></linearGradient>
@@ -18,11 +18,9 @@
 <g fill="none" stroke="#8eabce" stroke-width="1" opacity=".18"><path d="M1110 92 H1240 L1271 61 H1354"/><path d="M1170 114 H1272 L1310 79 H1380"/><circle cx="1240" cy="92" r="3" fill="#76bfff"/></g>
 <rect x="1.2" y="1.2" width="1397.6" height="412.6" rx="17" fill="none" stroke="#324154" stroke-width="2"/>
 <rect x="70" y="72" width="4" height="28" rx="2" fill="#fb7d78"/>
-<text x="94" y="92" fill="#fd9c96" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="6">BACKEND ENGINEER</text>
+<text x="94" y="92" fill="#fd9c96" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="6">BACKEND DEVELOPER</text>
 <text x="70" y="174" fill="#ffffff" font-family="Arial,sans-serif" font-size="70" font-weight="700" letter-spacing="2">AIDAR NAZAROV</text>
 <text x="73" y="218" fill="#c4d1e3" font-family="Arial,sans-serif" font-size="25">Go  ·  Java  ·  Distributed Systems</text>
-<rect x="72" y="260" width="4" height="74" rx="2" fill="#5ba9fa"/>
-<text x="92" y="280" fill="#d2ddeb" font-size="22" font-family="Arial,sans-serif">Building reliable APIs, scalable services</text>
-<text x="92" y="312" fill="#d2ddeb" font-size="22" font-family="Arial,sans-serif">and pragmatic backend infrastructure.</text>
+<line x1="73" y1="272" x2="475" y2="272" stroke="#70b6ef" stroke-width="2" opacity=".45"/>
 <text x="1360" y="376" text-anchor="end" fill="#e0ebfa" opacity=".74" font-size="14" letter-spacing="3" font-family="Arial,sans-serif">GRIMVEQSUM / ENGINEERING</text>
 </svg>

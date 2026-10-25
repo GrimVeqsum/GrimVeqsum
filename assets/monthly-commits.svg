@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="1400" height="410" viewBox="0 0 1400 410">
+
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#101e2e"/>
+    <stop offset="1" stop-color="#0b1421"/>
+  </linearGradient>
+
+  <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+    <stop stop-color="#347aa9"/>
+    <stop offset="1" stop-color="#69c6ee"/>
+  </linearGradient>
+</defs>
+
+<rect x="1" y="1" width="1398" height="408" rx="19"
+fill="url(#background)" stroke="#2b3c52" stroke-width="2"/>
+
+<text x="45" y="61" fill="#eff6ff"
+font-family="Arial" font-size="30" font-weight="700">
+Public commit activity
+</text>
+
+<text x="45" y="93" fill="#8fa9c3" font-family="Arial" font-size="20">2025-11 – 2026-10 · monthly totals</text>
+<text x="1350" y="61" text-anchor="end" fill="#a4dafa" font-family="Arial" font-size="29" font-weight="700">79 commits</text>
+<text x="1350" y="92" text-anchor="end" fill="#8fa9c3" font-family="Arial" font-size="19">Last 12 calendar months</text>
+<line x1="78" y1="317.0" x2="1352" y2="317.0" stroke="#263a50" stroke-width="1"/>
+<line x1="78" y1="270.2" x2="1352" y2="270.2" stroke="#263a50" stroke-width="1"/>
+<line x1="78" y1="223.5" x2="1352" y2="223.5" stroke="#263a50" stroke-width="1"/>
+<line x1="78" y1="176.8" x2="1352" y2="176.8" stroke="#263a50" stroke-width="1"/>
+<line x1="78" y1="130.0" x2="1352" y2="130.0" stroke="#263a50" stroke-width="1"/>
+<rect x="105.1" y="229.7" width="52" height="87.3" rx="6" fill="url(#bar)"/>
+<text x="131.1" y="218.7" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">7</text>
+<text x="131.1" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Nov</text>
+<text x="131.1" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">25</text>
+<rect x="211.2" y="304.5" width="52" height="12.5" rx="6" fill="url(#bar)"/>
+<text x="237.2" y="293.5" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">1</text>
+<text x="237.2" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Dec</text>
+<text x="237.2" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">25</text>
+<rect x="317.4" y="292.1" width="52" height="24.9" rx="6" fill="url(#bar)"/>
+<text x="343.4" y="281.1" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">2</text>
+<text x="343.4" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Jan</text>
+<text x="343.4" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<rect x="423.6" y="304.5" width="52" height="12.5" rx="6" fill="url(#bar)"/>
+<text x="449.6" y="293.5" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">1</text>
+<text x="449.6" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Feb</text>
+<text x="449.6" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<rect x="529.8" y="130.0" width="52" height="187.0" rx="6" fill="url(#bar)"/>
+<text x="555.8" y="119.0" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">15</text>
+<text x="555.8" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Mar</text>
+<text x="555.8" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<rect x="635.9" y="217.3" width="52" height="99.7" rx="6" fill="url(#bar)"/>
+<text x="661.9" y="206.3" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">8</text>
+<text x="661.9" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Apr</text>
+<text x="661.9" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<rect x="742.1" y="142.5" width="52" height="174.5" rx="6" fill="url(#bar)"/>
+<text x="768.1" y="131.5" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">14</text>
+<text x="768.1" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">May</text>
+<text x="768.1" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<text x="874.2" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Jun</text>
+<text x="874.2" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<rect x="954.4" y="179.9" width="52" height="137.1" rx="6" fill="url(#bar)"/>
+<text x="980.4" y="168.9" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">11</text>
+<text x="980.4" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Jul</text>
+<text x="980.4" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<rect x="1060.6" y="154.9" width="52" height="162.1" rx="6" fill="url(#bar)"/>
+<text x="1086.6" y="143.9" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">13</text>
+<text x="1086.6" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Aug</text>
+<text x="1086.6" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<rect x="1166.8" y="267.1" width="52" height="49.9" rx="6" fill="url(#bar)"/>
+<text x="1192.8" y="256.1" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">4</text>
+<text x="1192.8" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Sep</text>
+<text x="1192.8" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<rect x="1272.9" y="279.6" width="52" height="37.4" rx="6" fill="url(#bar)"/>
+<text x="1298.9" y="268.6" text-anchor="middle" fill="#d9edfc" font-family="Arial" font-size="19">3</text>
+<text x="1298.9" y="352" text-anchor="middle" fill="#bdcde0" font-family="Arial" font-size="21">Oct</text>
+<text x="1298.9" y="374" text-anchor="middle" fill="#66839f" font-family="Arial" font-size="15">26</text>
+<text x="1350" y="397" text-anchor="end" fill="#7491ad" font-family="Arial" font-size="16">Updated 25 Oct 2026 UTC · Current month is partial</text>
+</svg>

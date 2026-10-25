@@ -6,21 +6,20 @@
 
 ## About me
 
-I build backend services in **Go and Java**, with an interest in distributed systems, event-driven communication and reliable data processing.
+I'm a backend developer with a background in industrial automation and software engineering.
+
+I work on projects involving distributed systems, concurrent operations, and data consistency, with particular attention to reliability and failure handling.
 
 <table width="100%">
 <tr>
-<td width="53%" valign="top">
-<strong>ENGINEERING FOCUS</strong><br/>
-REST &amp; gRPC APIs · Microservices<br/>
-Messaging · SQL &amp; analytical databases<br/>
-Docker · Infrastructure &amp; observability
+<td width="50%" valign="top">
+<strong>EDUCATION</strong><br/>
+ITMO University · Master's (2024–2026)
 </td>
-<td width="47%" valign="top">
-<strong>AT A GLANCE</strong><br/>
-ITMO University · Master's (2024–2026)<br/>
+<td width="50%" valign="top">
+<strong>LOCATION &amp; AVAILABILITY</strong><br/>
 Saint Petersburg · Open to relocation<br/>
-English: B2 · Open to backend roles
+English B2
 </td>
 </tr>
 </table>
@@ -72,6 +71,12 @@ English: B2 · Open to backend roles
 ## Activity & insights
 
 <img src="./assets/github-insights.svg" width="100%" alt="Public GitHub repository metrics and languages" />
+
+### Monthly public commits
+
+<img src="./assets/monthly-commits.svg" width="100%" alt="Monthly public commits authored by GrimVeqsum over the last 12 months" />
+
+<sub>GitHub Search · Public repositories · Current month is partial · May differ from the contributions graph.</sub>
 
 ## Contact
 

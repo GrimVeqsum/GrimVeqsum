@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="202" viewBox="0 0 900 202" role="img" aria-label="FileStorage: REST API for uploading, downloading and deleting files.">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111e30"/><stop offset="1" stop-color="#0b1422"/></linearGradient><linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a0b9ff" stop-opacity=".17"/><stop offset="1" stop-color="#a0b9ff" stop-opacity="0"/></linearGradient></defs>
-<rect x="1" y="1" width="898" height="200" rx="15" fill="url(#bg)" stroke="#2b3d52" stroke-width="2"/>
-<rect x="2" y="2" width="7" height="198" rx="4" fill="#a0b9ff"/>
-<rect x="10" y="3" width="580" height="195" fill="url(#glow)" opacity=".3"/>
-<text x="40" y="29" fill="#a0b9ff" font-size="15" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="2.1" font-weight="700">GO  /  OBJECT STORAGE</text>
-<text x="40" y="75" fill="#eff5fe" font-size="35" font-family="DejaVu Sans,Arial,sans-serif" font-weight="700">FileStorage</text>
-<text x="40" y="108" fill="#d5e1ee" font-size="20" font-family="DejaVu Sans,Arial,sans-serif">REST API for uploading, downloading and deleting files.</text>
-<text x="40" y="136" fill="#9fb4ca" font-size="18" font-family="DejaVu Sans,Arial,sans-serif">MinIO (S3-compatible), PostgreSQL metadata and readiness checks.</text>
-<rect x="40" y="157" width="49.6" height="30" rx="8" fill="#19293d" stroke="#304158" stroke-width="1"/><text x="64.8" y="177" fill="#c3d6ee" font-size="17" font-weight="600" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">Go</text><rect x="101.6" y="157" width="82.0" height="30" rx="8" fill="#19293d" stroke="#304158" stroke-width="1"/><text x="142.6" y="177" fill="#c3d6ee" font-size="17" font-weight="600" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">MinIO</text><rect x="195.6" y="157" width="136.0" height="30" rx="8" fill="#19293d" stroke="#304158" stroke-width="1"/><text x="263.6" y="177" fill="#c3d6ee" font-size="17" font-weight="600" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">PostgreSQL</text><rect x="343.6" y="157" width="92.80000000000001" height="30" rx="8" fill="#19293d" stroke="#304158" stroke-width="1"/><text x="390.0" y="177" fill="#c3d6ee" font-size="17" font-weight="600" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">Docker</text>
-<text x="853" y="68" fill="#a0b9ff" font-family="DejaVu Sans,Arial,sans-serif" font-size="42" font-weight="700" opacity=".18" text-anchor="end">03</text>
-<path d="M818 164 h28 m-9 -9 l9 9 -9 9" fill="none" stroke="#a0b9ff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="335" viewBox="0 0 700 335" role="img" aria-label="FileStorage">
+    <defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15253a"/><stop offset="1" stop-color="#0b1421"/></linearGradient><linearGradient id="hint" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a4baff" stop-opacity=".20"/><stop offset="1" stop-color="#a4baff" stop-opacity="0"/></linearGradient></defs>
+    <rect x="1" y="1" width="698" height="333" rx="20" fill="url(#card)" stroke="#33465d" stroke-width="2"/>
+    <rect x="3" y="3" width="7" height="329" rx="4" fill="#a4baff"/>
+    <rect x="11" y="4" width="420" height="300" fill="url(#hint)" opacity=".33"/>
+    <text x="32" y="48" fill="#a4baff" font-size="19" font-family="DejaVu Sans,Arial,sans-serif" font-weight="700" letter-spacing="2.4">03  /  OBJECT STORAGE</text>
+    <text x="32" y="110" fill="#f0f6ff" font-size="40" font-family="DejaVu Sans,Arial,sans-serif" font-weight="700">FileStorage</text>
+    <text x="32" y="155" fill="#ccdced" font-size="23" font-family="DejaVu Sans,Arial,sans-serif">REST API for uploading, storing</text>
+    <text x="32" y="187" fill="#aebfd3" font-size="23" font-family="DejaVu Sans,Arial,sans-serif">and downloading files.</text>
+    <path d="M32 218 H664" stroke="#293d53"/>
+    <rect x="32" y="257" width="56" height="39" rx="9" fill="#1a2a40" stroke="#2c4057" stroke-width="1"/><text x="60.0" y="282" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-weight="600" font-size="19" fill="#c4d9ed">Go</text><rect x="100" y="257" width="92" height="39" rx="9" fill="#1a2a40" stroke="#2c4057" stroke-width="1"/><text x="146.0" y="282" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-weight="600" font-size="19" fill="#c4d9ed">MinIO</text><rect x="204" y="257" width="152" height="39" rx="9" fill="#1a2a40" stroke="#2c4057" stroke-width="1"/><text x="280.0" y="282" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-weight="600" font-size="19" fill="#c4d9ed">PostgreSQL</text>
+    <text x="33" y="323" fill="#7792ac" font-family="DejaVu Sans,Arial,sans-serif" font-size="16">S3-compatible  ·  Health checks</text>
+    <path d="M622 275 h36 m-12 -12 l12 12 -12 12" fill="none" stroke="#a4baff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    </svg>

@@ -31,43 +31,81 @@ def month_offset(today, delta):
     return year, month + 1
 
 
-def count_commits(year, month, today):
-    last_day = calendar.monthrange(year, month)[1]
 
-    if (year, month) == (today.year, today.month):
-        last_day = today.day
+def count_contributions_by_month(months, today):
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN is required")
 
-    start = f"{year:04d}-{month:02d}-01"
-    end = f"{year:04d}-{month:02d}-{last_day:02d}"
+    first_year, first_month = months[0]
 
-    query = (
-        f"author:{USER} "
-        f"user:{USER} "
-        f"is:public "
-        f"committer-date:{start}..{end}"
+    start_date = datetime(
+        first_year, first_month, 1, tzinfo=timezone.utc
+    ).isoformat()
+
+    end_date = datetime.now(timezone.utc).isoformat()
+
+    query = """
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar {
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+
+    payload = json.dumps({
+        "query": query,
+        "variables": {
+            "login": USER,
+            "from": start_date,
+            "to": end_date,
+        },
+    }).encode("utf-8")
+
+    request = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=payload,
+        headers={**HEADERS, "Content-Type": "application/json"},
+        method="POST",
     )
-
-    url = "https://api.github.com/search/commits?"
-    url += urllib.parse.urlencode({
-        "q": query,
-        "per_page": 1
-    })
-
-    request = urllib.request.Request(url, headers=HEADERS)
 
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
-            data = json.load(response)
+            result = json.load(response)
     except urllib.error.HTTPError as error:
         details = error.read().decode("utf-8", errors="replace")
         raise RuntimeError(
             f"GitHub API error {error.code}: {details[:400]}"
         ) from error
 
-    if data.get("incomplete_results"):
-        raise RuntimeError(f"Incomplete results for {start}")
+    if result.get("errors"):
+        raise RuntimeError(str(result["errors"]))
 
-    return int(data["total_count"])
+    calendar_data = (
+        result["data"]["user"]
+        ["contributionsCollection"]
+        ["contributionCalendar"]
+    )
+
+    counts = dict.fromkeys(months, 0)
+
+    for week in calendar_data["weeks"]:
+        for day in week["contributionDays"]:
+            date = datetime.strptime(day["date"], "%Y-%m-%d").date()
+            key = (date.year, date.month)
+
+            if key in counts and date <= today:
+                counts[key] += day["contributionCount"]
+
+    return [counts[month] for month in months]
 
 
 def generate_svg(months, counts, today):
@@ -97,7 +135,7 @@ fill="url(#background)" stroke="#2b3c52" stroke-width="2"/>
 
 <text x="45" y="61" fill="#eff6ff"
 font-family="Arial" font-size="30" font-weight="700">
-Public commit activity
+GitHub contribution activity
 </text>
 """]
 
@@ -111,7 +149,7 @@ Public commit activity
         f'<text x="1350" y="61" text-anchor="end" '
         f'fill="#a4dafa" font-family="Arial" '
         f'font-size="29" font-weight="700">'
-        f'{total} commits</text>'
+        f'{total} contributions</text>'
     )
 
     svg.append(
@@ -194,17 +232,14 @@ def main():
         for delta in range(-11, 1)
     ]
 
-    counts = [
-        count_commits(year, month, today)
-        for year, month in months
-    ]
+    counts = count_contributions_by_month(months, today)
 
     result = generate_svg(months, counts, today)
 
-    output = Path("assets/monthly-commits.svg")
+    output = Path("assets/monthly-contributions.svg")
     output.write_text(result, encoding="utf-8")
 
-    print("Public commits by month:")
+    print("GitHub contributions by month:")
 
     for (year, month), count in zip(months, counts):
         print(f"{year}-{month:02d}: {count}")

@@ -72,11 +72,11 @@ English B2
 
 <img src="./assets/github-insights.svg" width="100%" alt="Public GitHub repository metrics and languages" />
 
-### Monthly public commits
+### Monthly GitHub contributions
 
-<img src="./assets/monthly-commits.svg" width="100%" alt="Monthly public commits authored by GrimVeqsum over the last 12 months" />
+<img src="./assets/monthly-contributions.svg" width="100%" alt="Monthly GitHub contributions by GrimVeqsum over the last 12 months" />
 
-<sub>GitHub Search · Public repositories · Current month is partial · May differ from the contributions graph.</sub>
+<sub>GitHub contribution calendar · Current month is partial.</sub>
 
 ## Contact
 

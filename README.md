@@ -81,7 +81,27 @@ English B2
 ## Contact
 
 <div align="center">
-<a href="mailto:aidar.nazarov.2013@mail.com"><img src="https://img.shields.io/badge/Email-Let's%20connect-14263c?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+
+<a href="https://t.me/grim_veqsum">
+  <img src="https://img.shields.io/badge/Telegram-Message%20me-14263c?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Telegram" />
+</a>
 &nbsp;
-<a href="https://github.com/GrimVeqsum"><img src="https://img.shields.io/badge/GitHub-GrimVeqsum-14263c?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
+<a href="mailto:grimveqs@outlook.com">
+  <img src="https://img.shields.io/badge/Outlook-Email-14263c?style=for-the-badge&amp;logo=microsoftoutlook&amp;logoColor=white" alt="Outlook" />
+</a>
+&nbsp;
+<a href="mailto:aidar.nazarov.2013@mail.com">
+  <img src="https://img.shields.io/badge/Mail.ru-Email-14263c?style=for-the-badge&amp;logoColor=white" alt="Mail.ru" />
+</a>
+
 </div>
+
+<p align="center">
+  <sub>
+    <a href="https://t.me/grim_veqsum">@grim_veqsum</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:grimveqs@outlook.com">grimveqs@outlook.com</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:aidar.nazarov.2013@mail.com">aidar.nazarov.2013@mail.com</a>
+  </sub>
+</p>

@@ -3,7 +3,7 @@ name: Refresh development activity
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 5 * * 1'
+    - cron: '37 5 * * *'
 
 permissions:
   contents: write

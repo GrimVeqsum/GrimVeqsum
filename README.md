@@ -68,9 +68,7 @@ English B2
 
 <div align="right"><a href="https://github.com/GrimVeqsum?tab=repositories">All repositories →</a></div>
 
-## Activity & insights
-
-<img src="./assets/github-insights.svg" width="100%" alt="Public GitHub repository metrics and languages" />
+## Development activity
 
 ### Monthly GitHub contributions
 

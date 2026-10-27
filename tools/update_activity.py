@@ -215,7 +215,7 @@ GitHub contribution activity
     svg.append(
         f'<text x="1350" y="397" text-anchor="end" '
         f'fill="#7491ad" font-family="Arial" font-size="16">'
-        f'Updated {updated} UTC · Current month is partial'
+        'Current month is partial'
         f'</text>'
     )
 

@@ -59,12 +59,14 @@ English B2
 </tr>
 </table>
 
-## Featured projects
+## Engineering highlights
 
-<div align="center">
-<a href="https://github.com/GrimVeqsum/MovieTracker"><img src="./assets/project-movie.svg" width="49%" alt="MovieTracker — Go microservices with Kafka" /></a>&nbsp;<a href="https://github.com/GrimVeqsum/LinkPulse"><img src="./assets/project-links.svg" width="49%" alt="LinkPulse — Go, gRPC and ClickHouse" /></a><br/>
-<a href="https://github.com/GrimVeqsum/FileStorage"><img src="./assets/project-storage.svg" width="49%" alt="FileStorage — Go, MinIO and PostgreSQL" /></a>&nbsp;<a href="https://github.com/GrimVeqsum/OrderReservationService"><img src="./assets/project-orders.svg" width="49%" alt="OrderReservationService — Java, Spring Boot, transactions" /></a>
-</div>
+| Project | Engineering highlights | Last update |
+|:---|:---|:---|
+| **[MovieTracker](https://github.com/GrimVeqsum/MovieTracker)** | Transactional outbox · Retries & DLQ · JWT sessions | ![Last commit](https://img.shields.io/github/last-commit/GrimVeqsum/MovieTracker/main?style=flat-square&display_timestamp=committer&label=updated&labelColor=14263c&color=368aca) |
+| **[LinkPulse](https://github.com/GrimVeqsum/LinkPulse)** | gRPC communication · Event analytics · ClickHouse | ![Last commit](https://img.shields.io/github/last-commit/GrimVeqsum/LinkPulse/main?style=flat-square&display_timestamp=committer&label=updated&labelColor=14263c&color=368aca) |
+| **[FileStorage](https://github.com/GrimVeqsum/FileStorage)** | Object storage · Metadata management · Readiness | ![Last commit](https://img.shields.io/github/last-commit/GrimVeqsum/FileStorage/main?style=flat-square&display_timestamp=committer&label=updated&labelColor=14263c&color=368aca) |
+| **[OrderReservationService](https://github.com/GrimVeqsum/OrderReservationService)** | Concurrent reservations · Pessimistic locking | ![Last commit](https://img.shields.io/github/last-commit/GrimVeqsum/OrderReservationService/main?style=flat-square&display_timestamp=committer&label=updated&labelColor=14263c&color=368aca) |
 
 <div align="right"><a href="https://github.com/GrimVeqsum?tab=repositories">All repositories →</a></div>
 
